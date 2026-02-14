@@ -27,6 +27,7 @@ bld/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+BenchmarkDotNet.Artifacts/
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
@@ -52,3 +53,22 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# VS and VS Code
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+.vscc/
+_ReSharper*/
+[Dd]ot[S]ettings.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
